@@ -6,6 +6,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Footer from './components/Footer';
 // import { Button } from '@mui/material';
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route exact path="/" element= {<Home />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
