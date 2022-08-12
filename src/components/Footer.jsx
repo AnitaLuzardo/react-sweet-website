@@ -12,7 +12,7 @@ export default function Footer() {
         <FacebookIcon />
         <TwitterIcon />
       </div>
-      <p>Copy 2022 </p>
+      <p>Copy 2022 Sweet OOH! aquaMala </p>
     </div>
   )
 }

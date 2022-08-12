@@ -29,7 +29,7 @@
 }
 
 .navbar .leftSide img {
-  width: 64px;
+  width: 58px;
 }
 
 .navbar .rightSide {
@@ -46,7 +46,8 @@
   text-decoration: none;
   margin: 10px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;letter-spacing: 1px;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .navbar .rightSide button {
@@ -57,11 +58,12 @@
 }
 
 .navbar .rightSide svg {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .hiddenLinks {
   text-align: center;
+  padding-left: 15px;
 }
 
 .navbar #close .hiddenLinks {
@@ -91,9 +93,13 @@
   .navbar .rightSide button {
     display: inherit;
   }
+
+  .navbar a {
+    font-size: 11px;
+  }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
   .navbar .rightSide button {
     display: none;
   }
