@@ -7,40 +7,40 @@ import Quesillo from "../images/quesillo.jpg"
 
 
 export const MenuList = [
-    {
+	{
 			key: "sweet",
-      name: "Sweet Brownie",
+	  name: "Sweet Brownie",
 			image: Brownie,
 			precio: "250$"
-    },
+	},
 		{
 			key: "cheese",
-      name: "Cheese Cake de Maracuya",
+	  	name: "Cheese Cake Maracuya",
 			image: ChessCakeMry,
 			precio: "500$"
-    },
+	},
 		{
 			key: "oreo",
-      name: "Cheese Cake de Oreo",
+	  	name: "Cheese Cake Oreo",
 			image: ChessCakeOreo,
 			precio: "500$"
-    },
+	},
 		{
 			key: "red",
-      name: "Cheese Cake Frutos Rojos",
+	  	name: "Cheese Cake Frutos Rojos",
 			image: ChessCakeFR,
 			precio: "500$"
-    },
+	},
 		{
 			key: "choco",
-      name: "Galletas de chocolate",
+	  	name: "Galletas de chocolate",
 			image: CookieChoco,
 			precio: "150$"
-    },
+	},
 		{
 			key: "quesillo",
-      name: "Quesillo",
+	  	name: "Quesillo",
 			image: Quesillo,
 			precio: "250$"
-    }
+	}
 ]

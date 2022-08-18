@@ -28,7 +28,7 @@
   
   .menuItem {
     border-radius: 15px;
-    width: 300px;
+    width: 280px;
     margin: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   }
@@ -50,7 +50,7 @@
   }
   
   .menuItem p {
-    margin-left: 20px;
+    margin-left: 10px;
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 300;
 		font-size: 18px;
@@ -64,19 +64,7 @@
 	}
 
 	.menuList {
-		display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-	}	
-
-  /* @media only screen and (max-width: 1300px) {
-    .menuList {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-  @media only screen and (max-width: 800px) {
-    .menuList {
-      grid-template-columns: 1fr;
-    }
-  } */
+  }	
